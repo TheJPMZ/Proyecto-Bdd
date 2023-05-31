@@ -1,0 +1,23 @@
+UserID,BookID,RateDates,Author,Ratings,Comments
+13,4,2022-05-19,Mario Puzo,4,['One of the best books I have read']
+31,1,2023-03-15,Thomas Keneally,4,"['One of the best books I have read', 'Good Book, would recommend', 'Outstanding scenery']"
+6,1,2022-07-17,Thomas Keneally,3,['Incredible story']
+21,5,2022-06-13,Nicholas Pileggi,5,"['Amazing Book, one of my favorites,', 'Outstanding scenery', 'Good Book, would recommend']"
+27,2,2022-01-20,Stephen King,4,"['It made me cry', 'Incredible story', 'I would read it again!']"
+31,3,2022-11-30,George R. R. Martin,2,"['Amazing Book, one of my favorites,']"
+7,3,2022-07-09,George R. R. Martin,5,['It made me cry']
+28,3,2022-12-07,George R. R. Martin,3,"['Amazing Book, one of my favorites,', 'Outstanding scenery', 'Incredible story']"
+17,5,2023-04-11,Nicholas Pileggi,2,"['Great!', 'Amazing plot']"
+22,3,2023-03-28,George R. R. Martin,4,"['Good Book, would recommend', 'It made me cry', 'I would read it again!']"
+7,4,2023-01-06,Mario Puzo,4,[]
+17,4,2022-02-07,Mario Puzo,4,"['Incredible story', 'I would read it again!', 'Amazing Book, one of my favorites,']"
+18,2,2022-12-07,Stephen King,3,['It made me cry']
+3,1,2022-12-13,Thomas Keneally,4,[]
+29,3,2022-04-30,George R. R. Martin,3,"['Great!', 'It made me cry', 'Amazing Book, one of my favorites,']"
+2,1,2022-09-16,Thomas Keneally,3,"['One of the best books I have read', 'Amazing plot']"
+24,4,2022-10-10,Mario Puzo,3,"['Amazing Book, one of my favorites,', 'It made me cry']"
+20,1,2022-11-05,Thomas Keneally,5,"['Amazing plot', 'Incredible story', 'Amazing Book, one of my favorites,']"
+1,6,2023-02-08,Winston Groom,3,[]
+3,6,2022-03-19,Winston Groom,2,[]
+30,4,2022-09-24,Mario Puzo,2,[]
+2,2,2023-01-15,Stephen King,3,"['One of the best books I have read', 'Amazing Book, one of my favorites,']"

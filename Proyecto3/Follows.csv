@@ -1,0 +1,93 @@
+UserID,PersonID,Followed_since,Ratings,Comments
+12,39,2023-01-25,3,['Amazing performance']
+30,38,2022-07-27,4,"['Amazing performance', 'I would watch them again!']"
+22,18,2022-08-03,3,"['They made me cry', 'One of the best performances I have seen', 'I would watch them again!']"
+3,30,2022-08-19,5,['Great!']
+5,0,2023-03-06,5,[]
+6,11,2022-01-20,4,"['They made me cry', 'Incredible dynamics', 'I would watch them again!']"
+9,21,2022-11-30,3,"['Amazing acting, one of my favorites,']"
+6,18,2022-07-09,5,['They made me cry']
+26,34,2023-02-01,4,['They made me cry']
+15,2,2022-01-27,3,[]
+6,39,2023-04-11,3,"['Great!', 'Amazing performance']"
+1,23,2023-03-28,4,"['Good acting, would recommend watching them', 'They made me cry', 'I would watch them again!']"
+29,13,2023-01-24,5,"['Amazing performance', 'Amazing acting, one of my favorites,']"
+10,27,2022-02-07,5,"['Incredible dynamics', 'I would watch them again!', 'Amazing acting, one of my favorites,']"
+19,34,2022-07-28,5,"['Great!', 'One of the best performances I have seen']"
+11,3,2022-08-29,4,[]
+2,45,2022-03-20,4,"['Good acting, would recommend watching them', 'I would watch them again!']"
+22,39,2022-06-17,3,"['I would watch them again!', 'Great!']"
+8,32,2022-04-08,3,"['One of the best performances I have seen', 'Amazing performance']"
+16,36,2022-09-16,3,"['Incredible dynamics', 'Good acting, would recommend watching them']"
+11,38,2022-06-01,4,"['Amazing acting, one of my favorites,', 'Incredible dynamics']"
+2,20,2023-05-15,4,[]
+28,37,2022-03-20,5,['I would watch them again!']
+18,42,2022-03-19,5,[]
+2,16,2023-04-05,4,"['I would watch them again!', 'Amazing acting, one of my favorites,', 'Incredible dynamics']"
+8,39,2022-08-17,5,[]
+25,20,2022-06-09,5,"['Amazing performance', 'Outstanding vocabulary', 'Great!']"
+17,46,2022-09-24,4,"['They made me cry', 'I would watch them again!']"
+25,44,2022-06-15,5,['I would watch them again!']
+16,23,2022-03-14,3,"['They made me cry', 'One of the best performances I have seen']"
+4,38,2023-02-09,5,"['Great!', 'I would watch them again!']"
+1,33,2023-02-01,5,[]
+19,30,2022-05-11,5,"['Great!', 'Amazing performance', 'Amazing acting, one of my favorites,']"
+14,10,2023-01-10,4,"['They made me cry', 'I would watch them again!']"
+7,21,2022-10-17,3,"['They made me cry', 'Great!', 'I would watch them again!']"
+15,40,2022-05-13,3,[]
+30,5,2022-10-20,4,"['Good acting, would recommend watching them', 'Amazing acting, one of my favorites,']"
+9,34,2022-06-28,3,['Amazing performance']
+2,31,2022-02-08,3,['Amazing performance']
+29,38,2022-01-19,3,['Incredible dynamics']
+0,19,2022-05-22,3,['Great!']
+22,30,2023-04-23,3,"['I would watch them again!', 'Incredible dynamics']"
+27,0,2023-03-26,4,['Amazing performance']
+30,28,2022-08-21,3,"['Amazing performance', 'Incredible dynamics', 'One of the best performances I have seen']"
+26,43,2022-09-22,3,[]
+11,10,2022-04-12,3,['One of the best performances I have seen']
+26,22,2023-03-27,4,[]
+0,27,2022-10-07,5,"['Outstanding vocabulary', 'One of the best performances I have seen', 'Great!']"
+7,22,2022-03-09,4,['Incredible dynamics']
+10,5,2022-05-10,4,[]
+20,19,2023-01-01,5,"['Great!', 'I would watch them again!']"
+29,25,2022-08-30,5,"['One of the best performances I have seen', 'Outstanding vocabulary', 'I would watch them again!']"
+29,10,2022-04-02,5,['Amazing performance']
+20,23,2022-01-01,3,"['One of the best performances I have seen', 'Amazing acting, one of my favorites,']"
+25,19,2023-05-17,3,[]
+19,4,2023-02-17,3,['I would watch them again!']
+25,27,2022-06-23,3,[]
+2,4,2022-11-10,5,"['I would watch them again!', 'Great!']"
+21,25,2022-01-26,3,[]
+11,32,2023-02-23,3,[]
+25,3,2022-12-10,5,[]
+29,44,2023-04-18,3,['Amazing performance']
+29,5,2022-11-30,3,[]
+12,10,2023-05-09,3,"['One of the best performances I have seen', 'Amazing acting, one of my favorites,']"
+22,19,2022-09-23,5,['Incredible dynamics']
+2,12,2022-02-23,3,"['Amazing acting, one of my favorites,']"
+16,0,2022-10-31,3,"['One of the best performances I have seen', 'I would watch them again!']"
+2,8,2023-03-15,5,['One of the best performances I have seen']
+28,12,2022-03-03,3,['They made me cry']
+26,33,2022-11-14,4,"['Amazing performance', 'They made me cry', 'Amazing acting, one of my favorites,']"
+30,36,2022-01-24,3,"['I would watch them again!', 'Outstanding vocabulary', 'Amazing acting, one of my favorites,']"
+16,23,2022-09-11,5,[]
+19,28,2023-03-14,4,"['Amazing performance', 'One of the best performances I have seen', 'Good acting, would recommend watching them']"
+19,25,2023-03-07,4,['One of the best performances I have seen']
+17,16,2022-11-10,4,"['Good acting, would recommend watching them', 'Amazing performance', 'Great!']"
+29,45,2022-05-04,4,[]
+10,22,2023-04-22,5,"['Outstanding vocabulary', 'Incredible dynamics', 'They made me cry']"
+30,20,2022-03-20,5,[]
+11,13,2023-01-19,4,"['I would watch them again!', 'Incredible dynamics', 'One of the best performances I have seen']"
+24,20,2023-04-16,3,[]
+1,9,2022-01-17,3,"['I would watch them again!', 'Amazing performance', 'Outstanding vocabulary']"
+4,13,2023-03-17,3,"['They made me cry', 'Great!']"
+6,17,2022-05-14,4,[]
+12,31,2023-01-28,3,"['Great!', 'I would watch them again!']"
+0,42,2022-06-18,4,[]
+3,8,2023-02-13,3,[]
+9,6,2022-10-08,3,"['One of the best performances I have seen', 'Outstanding vocabulary', 'Great!']"
+26,28,2023-01-06,3,"['Amazing performance', 'They made me cry', 'Outstanding vocabulary']"
+18,8,2022-07-26,5,[]
+12,3,2023-05-01,5,['Great!']
+26,26,2023-04-04,3,"['One of the best performances I have seen', 'Outstanding vocabulary', 'Great!']"
+2,4,2022-11-07,3,"['Amazing acting, one of my favorites,', 'One of the best performances I have seen']"

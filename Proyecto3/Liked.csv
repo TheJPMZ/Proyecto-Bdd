@@ -1,0 +1,76 @@
+UserID,MovieID,RateDates,Genres,Ratings,Comments
+1,5,2023-01-28,Crime,5,"['One of the best movies I have watched', 'Outstanding cinematography']"
+1,12,2023-01-12,Animation,3,['Great!']
+1,19,2022-04-16,Comedy,5,['Great!']
+1,19,2023-03-06,Comedy,3,"['One of the best movies I have watched', 'Amazing film, one of my favorites,']"
+1,5,2023-02-09,Crime,3,['I would watch it again!']
+2,7,2022-10-25,Drama,3,"['Good film, would recommend', 'Incredible visuals']"
+5,20,2022-07-23,Drama,4,"['It made me cry', 'Great!', 'Outstanding cinematography']"
+5,2,2022-04-30,Drama,4,"['Incredible visuals', 'It made me cry', 'One of the best movies I have watched']"
+6,7,2022-09-08,Drama,5,"['It made me cry', 'Amazing plot', 'Amazing film, one of my favorites,']"
+6,14,2022-12-08,Sci-Fi,3,"['Incredible visuals', 'I would watch it again!']"
+6,7,2022-10-15,Drama,5,"['It made me cry', 'Great!', 'I would watch it again!']"
+6,8,2023-01-13,Comedy,4,['I would watch it again!']
+6,3,2022-03-11,Sci-Fi,4,"['It made me cry', 'Good film, would recommend', 'Amazing film, one of my favorites,']"
+7,11,2022-06-17,Fantasy,3,['Great!']
+7,11,2022-09-16,Fantasy,5,"['One of the best movies I have watched', 'Amazing plot', 'I would watch it again!']"
+7,16,2022-09-16,Horror,5,"['Amazing film, one of my favorites,', 'It made me cry']"
+7,16,2022-06-01,Horror,4,"['Incredible visuals', 'I would watch it again!']"
+7,18,2022-12-01,Crime,3,['Great!']
+7,3,2022-03-19,Sci-Fi,3,"['Good film, would recommend', 'Incredible visuals']"
+7,6,2022-01-24,Drama,5,"['One of the best movies I have watched', 'Amazing film, one of my favorites,']"
+8,17,2022-06-09,Biography,4,"['I would watch it again!', 'It made me cry', 'Amazing plot']"
+8,17,2022-11-28,Biography,4,"['Amazing film, one of my favorites,', 'Great!', 'One of the best movies I have watched']"
+10,12,2022-04-29,Animation,4,"['Good film, would recommend']"
+10,11,2022-04-02,Fantasy,4,"['Good film, would recommend']"
+10,11,2023-05-15,Fantasy,3,['One of the best movies I have watched']
+12,3,2022-05-13,Sci-Fi,3,"['Good film, would recommend']"
+12,18,2022-09-25,Crime,3,['It made me cry']
+12,6,2022-11-08,Drama,5,"['One of the best movies I have watched', 'Amazing plot', 'I would watch it again!']"
+12,3,2022-03-18,Sci-Fi,5,"['Outstanding cinematography', 'Amazing film, one of my favorites,', 'One of the best movies I have watched']"
+12,3,2022-05-31,Sci-Fi,3,"['Good film, would recommend', 'Amazing film, one of my favorites,', 'Outstanding cinematography']"
+12,7,2023-04-23,Drama,4,['Great!']
+12,6,2022-09-05,Drama,5,['Outstanding cinematography']
+13,11,2023-04-23,Fantasy,3,['Incredible visuals']
+13,14,2023-03-26,Sci-Fi,5,"['One of the best movies I have watched', 'Incredible visuals']"
+13,17,2023-05-05,Biography,4,"['Amazing film, one of my favorites,', 'Outstanding cinematography']"
+13,5,2022-04-12,Crime,5,['I would watch it again!']
+13,20,2023-03-27,Drama,5,['It made me cry']
+15,17,2023-03-17,Biography,4,"['Outstanding cinematography', 'One of the best movies I have watched']"
+15,16,2022-08-18,Horror,3,"['It made me cry', 'Great!']"
+16,10,2022-12-19,Crime,5,"['Great!', 'I would watch it again!']"
+17,14,2023-02-10,Sci-Fi,3,['One of the best movies I have watched']
+18,1,2022-04-02,Action,3,"['Outstanding cinematography', 'Good film, would recommend']"
+18,10,2022-01-14,Crime,5,"['Outstanding cinematography', 'I would watch it again!', 'Incredible visuals']"
+18,18,2023-02-17,Crime,3,"['One of the best movies I have watched', 'I would watch it again!', 'Incredible visuals']"
+18,10,2022-06-23,Crime,3,"['Good film, would recommend']"
+18,18,2022-05-22,Crime,3,"['Amazing film, one of my favorites,', 'Amazing plot', 'Outstanding cinematography']"
+18,17,2023-01-05,Biography,3,['One of the best movies I have watched']
+19,20,2022-02-25,Drama,5,"['Outstanding cinematography', 'Great!']"
+19,16,2023-03-18,Horror,3,"['Good film, would recommend']"
+22,2,2022-09-23,Drama,5,['Outstanding cinematography']
+22,2,2022-05-29,Drama,4,['Outstanding cinematography']
+22,14,2022-01-08,Sci-Fi,3,['One of the best movies I have watched']
+24,12,2022-09-11,Animation,5,"['Good film, would recommend']"
+25,14,2023-03-02,Sci-Fi,5,"['Amazing film, one of my favorites,', 'Incredible visuals', 'Outstanding cinematography']"
+25,4,2022-04-26,Drama,5,['Outstanding cinematography']
+25,4,2022-09-11,Drama,4,"['Outstanding cinematography', 'Amazing plot', 'One of the best movies I have watched']"
+26,9,2022-09-01,Action,3,"['Amazing plot', 'Outstanding cinematography', 'I would watch it again!']"
+26,10,2023-02-01,Crime,4,"['Amazing plot', 'Good film, would recommend']"
+26,16,2022-11-01,Horror,4,['I would watch it again!']
+26,7,2022-08-11,Drama,4,"['I would watch it again!', 'Incredible visuals']"
+26,2,2022-11-04,Drama,3,"['Amazing film, one of my favorites,']"
+26,7,2022-06-02,Drama,3,"['It made me cry', 'Great!']"
+27,20,2022-07-18,Drama,3,"['It made me cry', 'Great!', 'Amazing film, one of my favorites,']"
+27,20,2022-01-24,Drama,4,"['Amazing film, one of my favorites,', 'Outstanding cinematography', 'Good film, would recommend']"
+28,16,2022-04-22,Horror,5,"['It made me cry', 'Amazing film, one of my favorites,']"
+28,5,2022-07-26,Crime,5,['Amazing plot']
+29,19,2022-02-27,Comedy,4,['One of the best movies I have watched']
+29,4,2022-02-20,Drama,3,"['Good film, would recommend']"
+29,8,2022-11-25,Comedy,4,"['Incredible visuals', 'Good film, would recommend', 'I would watch it again!']"
+29,4,2022-09-14,Drama,4,"['One of the best movies I have watched', 'Outstanding cinematography', 'Amazing film, one of my favorites,']"
+29,19,2022-08-21,Comedy,3,"['Incredible visuals', 'Amazing plot', 'One of the best movies I have watched']"
+29,2,2023-03-30,Drama,3,"['It made me cry', 'Outstanding cinematography']"
+29,19,2023-05-06,Comedy,3,"['Amazing film, one of my favorites,', 'Incredible visuals', 'Outstanding cinematography']"
+30,11,2022-11-24,Fantasy,3,"['One of the best movies I have watched', 'I would watch it again!', 'Amazing plot']"
+30,4,2022-03-14,Drama,3,"['I would watch it again!', 'Outstanding cinematography', 'Great!']"

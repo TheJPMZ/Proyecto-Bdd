@@ -1,0 +1,13 @@
+PersonID,MovieID,Role,DirectorFee,DirectionStyle
+1,1,Organizer Director,5000000,Master Planner
+5,2,Visualizer Director,2500000,Creative Visionary
+10,4,Visual Composer Director,3000000,Visual Symphony Maestro
+13,5,Imaginator Director,4000000,Visual Effects Virtuoso
+16,6,Audiophile Director,3500000,Music Enthusiast
+20,7,Artistic Stylist Director,4500000,Visual Aesthete
+1,9,Organizer Director,5000000,Master Planner
+25,10,Storyteller Director,2000000,Screenplay Craftsman
+31,13,Assembler Director,3000000,Editing Artisan
+35,14,Audio Engineer Director,3500000,Sonic Architect
+38,17,Organizer Director,5000000,Master Planner
+41,18,Visual Composer Director,3000000,Visual Harmony Maestro

@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Estilos para el fondo de la página */
+body {
+    background-color: #D1F4FA;
+    /* Color de fondo celeste pálido */
+}
+
+/* Estilos para el título */
+.titulo-container {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    position: relative;
+    /* Establece el posicionamiento relativo en el contenedor */
+    padding: 10px;
+    background-color: #53CDE2;
+    /* Color de fondo celeste oscuro */
+    color: #EDF9FC;
+    /* Color del texto blanco */
+}
+
+.titulo-container img {
+    height: 50px;
+    /* Ajusta la altura del logo según tus necesidades */
+    margin-right: 10px;
+    /* Espacio entre el logo y el título */
+}
+
+.titulo {
+    margin: 0;
+    /* Elimina el margen superior del título */
+}
+
+.titulo-container h1 {
+    flex: 1;
+    /* Ocupa el espacio disponible */
+    text-align: center;
+    /* Centra el texto */
+}
+
+h1.titulo {
+    font-family: "Roboto", sans-serif;
+}
+
+
+h2 {
+    color: #005792;
+    font-size: 18px;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para los enlaces */
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    width: 300px;
+    /* Ancho deseado para cada movie card */
+    margin: 10px;
+    /* Espacio entre las movie cards */
+    background-color: #EDF9FC;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn-interest {
+    background-color: #fdf4d5;
+    color: #ffc107;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-interest:hover {
+    background-color: #ffc107;
+    color: #fdf4d5;
+}
+
+.btn-not-interest {
+    background-color: #ffe0e3;
+    color: #dc3545;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-not-interest:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.pagetitle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: #005792;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Para Ti - Películas Recomendadas</title>
+    <style>
+        .navbar {
+            background-color: #D1F4FA;
+        }
+
+        .navbar-brand {
+            color: #EDF9FC;
+            font-size: 24px;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #53CDE2;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #53CDE2;
+            border-bottom: 2px solid #53CDE2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo-container">
+        <img src="{{ url_for('static', filename='default/logo.png') }}" alt="Logo del sistema de recomendación">
+        <h1 class="titulo">Sistema de Recomendación Neo4J</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('recomendaciones') }}">Para ti</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('preferencias') }}">Preferencias</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('actores') }}">Actores</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="pagetitle-container">
+        <h1>Preferencias</h1>
+    </div>
+    <form method="POST" action="{{ url_for('preferencias') }}">
+        <h2>Géneros:</h2>
+        <input type="checkbox" name="generos" value="accion"> Acción<br>
+        <input type="checkbox" name="generos" value="comedia"> Comedia<br>
+        <input type="checkbox" name="generos" value="drama"> Drama<br>
+        <!-- Agrega más géneros según sea necesario -->
+
+        <h2>Actores:</h2>
+        <input type="checkbox" name="actores" value="actor1"> Actor 1<br>
+        <input type="checkbox" name="actores" value="actor2"> Actor 2<br>
+        <input type="checkbox" name="actores" value="actor3"> Actor 3<br>
+        <!-- Agrega más actores según sea necesario -->
+
+        <input type="submit" value="Guardar preferencias">
+    </form>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>

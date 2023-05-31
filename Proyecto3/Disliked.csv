@@ -1,0 +1,51 @@
+UserID,MovieID,RateDates,Genres,Ratings,Comments
+1,13,2023-01-28,Drama,1,"['Awful!', 'Awful plot', 'I never watch it again!']"
+1,14,2023-01-12,Sci-Fi,3,['C-tier visuals']
+1,10,2022-08-03,Crime,1,"['It made me angry', 'One of the best worst I have watched']"
+1,4,2022-07-17,Drama,1,['C-tier visuals']
+2,19,2022-06-13,Comedy,3,"['Horrible film, one of the worst I have seen,', 'Okay cinematography']"
+3,17,2022-08-08,Biography,2,['Awful!']
+3,15,2022-12-08,Comedy,2,"['Terrible film, would not recommend']"
+3,11,2022-11-30,Fantasy,1,"['Horrible film, one of the worst I have seen,']"
+4,10,2022-07-09,Crime,3,['It made me angry']
+5,18,2023-02-01,Crime,2,['It made me angry']
+5,1,2023-05-26,Action,1,"['Horrible film, one of the worst I have seen,']"
+5,17,2022-07-23,Biography,1,"['Okay cinematography', 'It made me angry']"
+5,4,2023-02-04,Drama,2,['C-tier visuals']
+5,10,2023-05-08,Crime,3,"['One of the best worst I have watched', 'It made me angry']"
+5,7,2023-01-24,Drama,3,"['It made me angry', 'Awful plot', 'Horrible film, one of the worst I have seen,']"
+6,14,2022-02-07,Sci-Fi,1,"['C-tier visuals', 'I never watch it again!']"
+6,20,2022-10-15,Drama,2,['Okay cinematography']
+6,8,2022-06-12,Comedy,1,"['It made me angry', 'One of the best worst I have watched', 'Awful plot']"
+6,11,2022-03-31,Fantasy,3,['I never watch it again!']
+6,10,2022-12-04,Crime,2,['It made me angry']
+7,4,2022-12-18,Drama,2,"['Horrible film, one of the worst I have seen,']"
+7,17,2022-04-08,Biography,1,"['It made me angry', 'One of the best worst I have watched', 'C-tier visuals']"
+8,16,2022-10-10,Horror,3,"['Horrible film, one of the worst I have seen,', 'It made me angry']"
+10,16,2022-02-03,Horror,2,"['C-tier visuals', 'I never watch it again!']"
+10,1,2022-12-01,Action,3,"['Okay cinematography', 'I never watch it again!']"
+12,2,2022-03-19,Drama,2,"['I never watch it again!', 'C-tier visuals', 'Awful!']"
+16,9,2022-06-30,Action,3,"['One of the best worst I have watched', 'Horrible film, one of the worst I have seen,', 'Terrible film, would not recommend']"
+16,11,2022-06-09,Fantasy,2,"['Awful plot', 'Okay cinematography']"
+17,12,2022-09-24,Animation,1,"['It made me angry', 'I never watch it again!', 'Awful!']"
+17,4,2022-06-16,Drama,2,"['Okay cinematography', 'I never watch it again!', 'Awful!']"
+17,8,2022-11-28,Comedy,2,['Awful!']
+18,6,2022-11-18,Drama,1,['Awful plot']
+18,17,2023-02-01,Biography,2,"['Horrible film, one of the worst I have seen,', 'Awful!', 'One of the best worst I have watched']"
+18,13,2022-06-30,Drama,3,['C-tier visuals']
+18,6,2023-01-10,Drama,1,"['Terrible film, would not recommend', 'It made me angry', 'Awful plot']"
+19,10,2022-08-30,Crime,1,"['C-tier visuals', 'It made me angry']"
+22,5,2023-04-26,Crime,2,"['I never watch it again!', 'Awful!', 'Awful plot']"
+24,9,2022-09-25,Action,1,"['Horrible film, one of the worst I have seen,', 'It made me angry', 'Awful plot']"
+24,6,2022-11-08,Drama,3,"['One of the best worst I have watched', 'Awful plot', 'I never watch it again!']"
+26,16,2022-02-08,Horror,3,"['Awful!', 'Awful plot', 'Horrible film, one of the worst I have seen,']"
+27,20,2022-01-19,Drama,1,['C-tier visuals']
+27,5,2022-01-31,Crime,1,"['One of the best worst I have watched', 'Awful!']"
+28,16,2023-04-23,Horror,1,"['I never watch it again!', 'C-tier visuals']"
+28,1,2023-03-26,Action,2,['Awful plot']
+28,15,2022-08-21,Comedy,2,"['C-tier visuals', 'Awful plot', 'One of the best worst I have watched']"
+28,17,2022-01-27,Biography,2,"['Horrible film, one of the worst I have seen,', 'Okay cinematography']"
+29,5,2022-06-17,Crime,3,['I never watch it again!']
+30,20,2022-12-25,Drama,3,['It made me angry']
+30,9,2022-01-19,Action,3,"['Okay cinematography', 'Awful plot']"
+30,10,2022-09-10,Crime,1,"['One of the best worst I have watched', 'I never watch it again!', 'Awful!']"

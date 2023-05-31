@@ -1,0 +1,47 @@
+PersonID,PersonName,CompanyID,CompanyName,Position,EmploymentStartDate,ContractType
+1,Christopher Nolan,1,Warner Bros.,Director,2005-07-01,Full-time
+2,Leonardo DiCaprio,2,Legendary Entertainment,Actor,2010-03-15,Contractual
+3,Joseph Gordon-Levitt,3,Castle Rock Entertainment,Actor,2000-09-10,Full-time
+4,Elliot Page,4,Netflix,Actor,2021-01-05,Part-time
+5,Frank Darabont,5,Monkey Massacre,Director,2016-06-20,Full-time
+6,Tim Robbins,6,Bold Films,Actor,2008-04-01,Contractual
+7,Morgan Freeman,7,Blumhouse Productions,Actor,2012-10-10,Full-time
+8,Millie Bobby Brown,8,Miramax Films,Actor,2019-07-15,Contractual
+9,Winona Ryder,9,Fox 2000 Pictures,Actor,2016-02-02,Full-time
+10,Damien Chazelle,10,AMC,Director,2014-09-01,Full-time
+11,Miles Teller,11,Gran Via Productions,Actor,2016-05-20,Contractual
+12,J.K. Simmons,12,DC Comics,Actor,2014-02-15,Full-time
+13,Quentin Tarantino,13,Alfran Productions,Director,1995-03-01,Full-time
+14,John Travolta,14,HBO,Actor,2019-11-10,Contractual
+15,Samuel L. Jackson,15,Grok! Studio,Actor,1992-08-05,Full-time
+16,David Fincher,16,Pixar Animation Studios,Director,2007-06-10,Full-time
+17,Brad Pitt,17,Deedle-Dee Productions,Actor,2001-11-18,Full-time
+18,Edward Norton,18,Universal Television,Actor,2000-05-01,Full-time
+19,Helena Bonham Carter,19,New Line Cinema,Actor,2003-09-15,Full-time
+20,Vince Gilligan,20,Atomic Monster Productions,Director,2010-10-01,Full-time
+21,Bryan Cranston,11,Gran Via Productions,Actor,2008-08-01,Full-time
+22,Aaron Paul,11,Gran Via Productions,Actor,2008-08-01,Full-time
+23,Heath Ledger,5,Monkey Massacre,Actor,2005-03-15,Full-time
+24,Christian Bale,1,Warner Bros.,Actor,2004-09-01,Full-time
+25,Francis Ford Coppola,9,Fox 2000 Pictures,Director,1970-01-15,Full-time
+26,Marlon Brando,13,Alfran Productions,Actor,1962-07-20,Full-time
+27,Al Pacino,13,Alfran Productions,Actor,1972-05-10,Full-time
+28,James Caan,13,Alfran Productions,Actor,1972-05-10,Full-time
+29,Emilia Clarke,8,Miramax Films,Actor,2018-03-01,Full-time
+30,Peter Dinklage,8,Miramax Films,Actor,2018-03-01,Full-time
+31,Robert Zemeckis,18,Universal Television,Director,1983-06-15,Full-time
+32,Tom Hanks,18,Universal Television,Actor,1985-09-01,Full-time
+33,Robin Wright,18,Universal Television,Actor,1984-06-01,Full-time
+34,Gary Sinise,18,Universal Television,Actor,1994-02-01,Full-time
+35,The Wachowski Brothers,17,Deedle-Dee Productions,Director,1996-07-15,Full-time
+36,Keanu Reeves,17,Deedle-Dee Productions,Actor,1996-07-15,Full-time
+37,Laurence Fishburne,17,Deedle-Dee Productions,Actor,1996-07-15,Full-time
+38,Steven Spielberg,22,Universal Pictures,Director,1974-06-20,Full-time
+39,Liam Neeson,9,Fox 2000 Pictures,Actor,2008-02-01,Full-time
+40,Ben Kingsley,9,Fox 2000 Pictures,Actor,2008-02-01,Full-time
+41,Martin Scorsese,14,HBO,Director,1973-10-01,Full-time
+42,Robert De Niro,14,HBO,Actor,1998-05-01,Full-time
+43,Ray Liotta,14,HBO,Actor,1999-07-01,Full-time
+44,Joe Pesci,14,HBO,Actor,1991-02-01,Full-time
+45,Jennifer Aniston,9,Fox 2000 Pictures,Actor,2006-01-01,Full-time
+46,Matthew Perry,9,Fox 2000 Pictures,Actor,2006-01-01,Full-time

@@ -1,0 +1,21 @@
+ID,Type,Name,Genre,Duration,AvgVote,ReleaseYear,Episodes,Seasons
+1,movie,Inception,Action,148,8.8,2010,0,0
+2,movie,The Shawshank Redemption,Drama,142,9.3,1994,0,0
+3,series,Stranger Things,Sci-Fi,60,8.7,2016,40,4
+4,movie,Whiplash,Drama,106,8.5,2014,0,0
+5,movie,Pulp Fiction,Crime,154,8.9,1994,0,0
+6,movie,Fight Club,Drama,139,8.8,1999,0,0
+7,series,Breaking Bad,Drama,50,9.5,2008,62,5
+8,shortfilm,The Lunch Date,Comedy,12,7.3,1989,0,0
+9,movie,The Dark Knight,Action,152,9.0,2008,0,0
+10,movie,The Godfather,Crime,175,9.2,1972,0,0
+11,series,Game of Thrones,Fantasy,60,9.3,2011,73,8
+12,shortfilm,Piper,Animation,6,8.4,2016,0,0
+13,movie,Forrest Gump,Drama,142,8.8,1994,0,0
+14,movie,The Matrix,Sci-Fi,136,8.7,1999,0,0
+15,series,The Office,Comedy,22,8.9,2005,201,9
+16,shortfilm,Lights Out,Horror,3,6.3,2013,0,0
+17,movie,Schindler's List,Biography,195,8.9,1993,0,0
+18,movie,Goodfellas,Crime,146,8.7,1990,0,0
+19,series,Friends,Comedy,22,8.9,1994,236,10
+20,shortfilm,The Present,Drama,24,8.1,2020,0,0

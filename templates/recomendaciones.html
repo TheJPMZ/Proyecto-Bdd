@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Para Ti - Películas Recomendadas</title>
+    <style>
+        .navbar {
+            background-color: #D1F4FA;
+        }
+
+        .navbar-brand {
+            color: #EDF9FC;
+            font-size: 24px;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #53CDE2;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #53CDE2;
+            border-bottom: 2px solid #53CDE2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo-container">
+        <img src="{{ url_for('static', filename='default/logo.png') }}" alt="Logo del sistema de recomendación">
+        <h1 class="titulo">Sistema de Recomendación Neo4J</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('recomendaciones') }}">Para ti</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('preferencias') }}">Preferencias</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('actores') }}">Actores</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="pagetitle-container">
+        <h1>Para Ti</h1>
+    </div>
+    <div class="container">
+        <h2>Películas Recomendadas Para Ti</h2>
+        <div class="movie-container">
+            {% for pelicula in peliculas %}
+            <div class="movie-card">
+                <img src="{{ url_for('static', filename='default/movie.jpg') }}" alt="Poster de Ejemplo de Película">
+                <h3>{{ pelicula.titulo }}</h3>
+                <p>Género: {{ pelicula.genero }}</p>
+                <p>Duración: {{ pelicula.duracion }}</p>
+                <p>Calificación promedio: {{ pelicula.calificacion }}</p>
+                <p>Año de lanzamiento: {{ pelicula.año }}</p>
+                <button class="btn btn-primary btn-interest position-absolute bottom-0 end-0 m-3">
+                    <i class="bi bi-star-fill"></i> Me interesa
+                </button> <!-- Agrega el botón "Me interesa" con el ícono de estrella -->
+                <button class="btn btn-danger btn-not-interest position-absolute bottom-0 start-0 m-3">
+                    <i class="bi bi-x-circle-fill"></i> Ya no me interesa
+                </button> <!-- Agrega el botón "Ya no me interesa" con el ícono de "x" -->
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+MovieID,ProductionCompanyID,Role,StartDate,EndDate
+1,1,Main Production Company,2010-07-16,2010-09-30
+1,2,Co-Production Company,2010-07-16,2010-09-30
+2,3,Main Production Company,1994-09-23,1994-12-10
+3,4,Main Production Company,2016-07-15,2022-09-30
+3,5,Co-Production Company,2016-07-15,2022-09-30
+4,6,Main Production Company,2014-10-15,2014-12-30
+4,7,Co-Production Company,2014-10-15,2014-12-30
+5,8,Main Production Company,1994-10-14,1995-02-26
+6,9,Main Production Company,1998-07-21,1998-10-15
+7,10,Main Production Company,2008-01-20,2013-09-29
+7,11,Main Production Company,2008-01-20,2013-09-29
+9,12,Co-Production Company,2007-07-16,2007-07-16
+9,1,Main Production Company,2007-07-16,2007-07-16
+10,13,Main Production Company,1971-03-15,1971-03-15
+11,14,Main Production Company,2011-04-17,2019-05-19
+11,15,Co-Production Company,2011-04-17,2019-05-19
+12,16,Main Production Company,2015-01-24,2015-01-24
+14,1,Main Production Company,1999-03-24,1999-07-16
+15,17,Main Production Company,2005-03-24,2013-05-16
+15,18,Co-Production Company,2005-03-24,2013-05-16
+16,19,Main Production Company,2013-03-21,2013-03-21
+16,20,Co-Production Company,2013-03-21,2013-03-21
+16,21,Co-Production Company,2013-03-21,2013-03-21
+17,22,Main Production Company,1993-11-29,1994-02-16
+17,23,Main Production Company,1993-11-29,1994-02-16
+18,1,Main Production Company,1989-09-12,1990-09-12
+18,24,Co-Production Company,1989-09-12,1990-09-12
+19,1,Main Production Company,1994-08-03,1994-12-15
+19,25,Co-Production Company,1994-08-03,1994-12-15
+

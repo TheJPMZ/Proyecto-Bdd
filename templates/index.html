@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Sistema de Recomendación</title>
+    <style>
+        .navbar {
+            background-color: #D1F4FA;
+        }
+
+        .navbar-brand {
+            color: #EDF9FC;
+            font-size: 24px;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #53CDE2;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #53CDE2;
+            border-bottom: 2px solid #53CDE2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="titulo-container">
+        <img src="{{ url_for('static', filename='default/logo.png') }}" alt="Logo del sistema de recomendación">
+        <h1 class="titulo">Sistema de Recomendación Neo4J</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('recomendaciones') }}">Para ti</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('preferencias') }}">Preferencias</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('actores') }}">Actores</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="pagetitle-container">
+        <h1>Página Principal</h1>
+    </div>
+    <div class="login-part">
+        <input type="text" id="textInput">
+        <button id="submitButton">Send</button>
+    </div>
+
+    <h2>Películas:</h2>
+    <div class="movie-container">
+        {% for pelicula in peliculas %}
+        <!-- Tarjeta de Película -->
+        <div class="movie-card position-relative">
+            <img src="{{ url_for('static', filename='default/movie.jpg') }}" alt="Poster de Ejemplo de Película">
+            <h3>{{ pelicula.titulo }}</h3>
+            <p>Género: {{ pelicula.genero }}</p>
+            <p>Duración: {{ pelicula.duracion }}</p>
+            <p>Calificación promedio: {{ pelicula.calificacion }}</p>
+            <p>Año de lanzamiento: {{ pelicula.año }}</p>
+            <button class="btn btn-primary btn-interest position-absolute bottom-0 end-0 m-3" onclick="likeMovie('{{ pelicula.titulo }}')">
+                <i class="bi bi-star-fill"></i> Like
+            </button> <!-- Agrega el botón "Me interesa" con el ícono de estrella -->
+            <button class="btn btn-danger btn-not-interest position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Dislike
+            </button> <!-- Agrega el botón "Ya no me interesa" con el ícono de "x" -->
+            <button class="btn btn-primary btn-watch position-absolute bottom-0 start-0 m-3" onclick="rate('{{ pelicula.titulo }}')">
+                <i class="bi bi-x-circle-fill"></i> Rate 
+            </button> <!-- TODO Boton de ver mas tarde bonito -->
+            <button class="btn btn-primary btn-watch position-absolute bottom-0 start-0 m-3" onclick="unrate('{{ pelicula.titulo }}')">
+                <i class="bi bi-x-circle-fill"></i> Unrate 
+            </button> <!-- TODO Boton de ver mas tarde bonito -->
+            
+        </div>
+        {% endfor %}
+
+        
+
+        <!-- Película de ejemplo 
+        <div class="movie-card">
+            <img src="{{ url_for('static', filename='default/movie.jpg') }}" alt="Poster de Ejemplo de Película">
+            <h3>Película</h3>
+            <p>Género: Drama</p>
+            <p>Duración: 120 minutos</p>
+            <p>Calificación promedio: 7.5</p>
+            <p>Año de lanzamiento: 2022</p>
+            <button class="btn btn-primary btn-interest position-absolute bottom-0 end-0 m-3">
+                <i class="bi bi-star-fill"></i> Me interesa
+            </button>  Agrega el botón "Me interesa" con el ícono de estrella 
+            <button class="btn btn-danger btn-not-interest position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Ya no me interesa
+            </button>  Agrega el botón "Ya no me interesa" con el ícono de "x" 
+        </div>
+         Fin de película de ejemplo -->
+
+    </div>
+    <h2>Series:</h2>
+    <div class="movie-container">
+        {% for serie in series %}
+        
+        <div class="movie-card position-relative">
+            <img src="{{ url_for('static', filename='default/movie.jpg') }}" alt="Poster de Ejemplo de Película">
+            <h3>{{ serie.titulo }}</h3>
+            <p>Género: {{ serie.genero }}</p>
+            <p>Duración: {{ serie.duracion }}</p>
+            <p>Calificación promedio: {{ serie.calificacion }}</p>
+            <p>Año de lanzamiento: {{ serie.año }}</p>
+            <button class="btn btn-primary btn-interest position-absolute bottom-0 end-0 m-3" >
+                <i class="bi bi-star-fill"></i> Like
+            </button> <!-- Agrega el botón "Me interesa" con el ícono de estrella -->
+            <button class="btn btn-danger btn-not-interest position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Dislike
+            </button> <!-- Agrega el botón "Ya no me interesa" con el ícono de "x" -->
+            <button class="btn btn-primary btn-watch position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Unrate 
+            </button> <!-- TODO Boton de ver mas tarde bonito -->
+        </div>
+
+        {% endfor %}
+    </div>
+
+    <h2>Cortos:</h2>
+    <div class="movie-container">
+        {% for corto in cortos %}
+        
+        <div class="movie-card position-relative">
+            <img src="{{ url_for('static', filename='default/movie.jpg') }}" alt="Poster de Ejemplo de Película">
+            <h3>{{ corto.titulo }}</h3>
+            <p>Género: {{ corto.genero }}</p>
+            <p>Duración: {{ corto.duracion }}</p>
+            <p>Calificación promedio: {{ corto.calificacion }}</p>
+            <p>Año de lanzamiento: {{ corto.año }}</p>
+            <button class="btn btn-primary btn-interest position-absolute bottom-0 end-0 m-3">
+                <i class="bi bi-star-fill"></i> Like
+            </button> <!-- Agrega el botón "Me interesa" con el ícono de estrella -->
+            <button class="btn btn-danger btn-not-interest position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Dislike
+            </button> <!-- Agrega el botón "Ya no me interesa" con el ícono de "x" -->
+            <button class="btn btn-primary btn-watch position-absolute bottom-0 start-0 m-3">
+                <i class="bi bi-x-circle-fill"></i> Unrate 
+            </button> <!-- TODO Boton de ver mas tarde bonito -->
+        </div>
+
+        {% endfor %}
+    </div>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        function likeMovie(titulo) {
+
+            var rating = prompt("Enter rating (1-5):");
+
+        $.ajax({
+            type: "POST",
+            url: "/like",
+            data: { "titulo": titulo, "rating": rating},
+            success: function(response) {
+                console.log(response);
+            }
+        });
+        }
+
+        function unrate(titulo) {
+
+        $.ajax({
+        type: "POST",
+        url: "/unrate",
+        data: {"titulo": titulo},
+        success: function(response) {
+            alert(response);
+        }
+        });
+        }
+
+        function rate(titulo) {
+
+            var rating = prompt("Enter rating (1-5):");
+
+        $.ajax({
+        type: "POST",
+        url: "/rate",
+        data: {"titulo": titulo, "rating": rating},
+        success: function(response) {
+            alert(response);
+        }
+        });
+        }
+
+        $(document).ready(function() {
+            $("#submitButton").click(function() {
+                var inputText = $("#textInput").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/login",
+                    data: { text: inputText },
+                    success: function(response) {
+                        alert(response)
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
